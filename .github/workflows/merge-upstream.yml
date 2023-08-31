@@ -15,6 +15,10 @@ on:
   schedule:
     - cron: 30 19 * * *
 
+# 解决方案
+permissions:
+  contents: write
+
 jobs:
   merge:
 
